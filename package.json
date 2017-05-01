@@ -1,0 +1,23 @@
+{
+  "name": "redir",
+  "version": "1.0.0",
+  "description": "Redirect traffic to differents port on the same machine based on hostname",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C-Bouthoorn/redir.git"
+  },
+  "author": "C-Bouthoorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/C-Bouthoorn/redir/issues"
+  },
+  "homepage": "https://github.com/C-Bouthoorn/redir#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "http-proxy": "^1.16.2"
+  }
+}
