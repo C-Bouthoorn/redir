@@ -129,7 +129,7 @@ http
 
 // Start HTTPS server
 https
-  .createServer(certs, create_server('https'));
+  .createServer(certs, create_server('https'))
   .listen(443, () => {
     console.log(`HTTPS server started on port 443`);
   });
